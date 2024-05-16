@@ -1,0 +1,48 @@
+/* Default styles */
+.form-add-friend {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(239, 218, 191);
+}
+
+.form-add-friend label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-add-friend input[type="text"],
+.form-add-friend input[type="image"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-add-friend button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .form-add-friend {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .form-add-friend {
+        padding: 10px;
+    }
+
+    .form-add-friend button {
+        font-size: 0.9em;
+    }
+}

@@ -1,0 +1,36 @@
+.friends-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .friend-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .friend-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .friend-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .friend-item p {
+    margin: 0;
+  }
+  
+  .friend-item .green {
+    color: green;
+  }
+  
+  .friend-item .red {
+    color: red;
+  }
+  

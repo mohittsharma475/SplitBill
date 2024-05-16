@@ -1,0 +1,60 @@
+/* Default styles */
+.form-split-bill {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(239, 218, 191)
+}
+
+.form-split-bill h2 {
+    font-size: 1.5em;
+}
+
+.form-split-bill label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-split-bill input[type="text"],
+.form-split-bill select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-split-bill select {
+    width: 100%;
+}
+
+.form-split-bill button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .form-split-bill {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .form-split-bill {
+        padding: 10px;
+    }
+
+    .form-split-bill h2 {
+        font-size: 1.2em;
+    }
+
+    .form-split-bill button {
+        font-size: 0.9em;
+    }
+}
